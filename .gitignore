@@ -1,0 +1,25 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Runtime data: database, saved inspection photos, certificates and PRIVATE KEYS
+backend/data/
+*.pem
+*.key
+rootCA*
+
+# Optional ML model files (large; download or train separately)
+backend/models/*.onnx
+backend/models/*.pt
+
+# mkcert / cloudflared executables if copied into the folder
+*.exe
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
